@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@font-face {
+  font-family: "CarlaSansLight";
+  src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+  font-style: Light;
+  font-weight: Light;
+}
+
+p{
+    font-family: 'CarlaSansLight';
+}
+
+
+.secondblock{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.zagolovok{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    background-color: coral;
+
+}
+
+.ppp{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: steelblue;
+    color: honeydew;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+}
